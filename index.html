@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <td>
+              Name <i class="fas fa-sort-down"></i>
+              <div class="sort">
+                <input class="name" type="button" value="Сортировать" />
+              </div>
+            </td>
+            <td>
+              Username <i class="fas fa-sort-down"></i>
+              <div class="sort">
+                <input id="username" type="button" onclick="sorter()" value="Сортировать" />
+              </div>
+            </td>
+            <td>
+              Email <i class="fas fa-sort-down"></i>
+              <div class="sort">
+                <input id="email" type="button" onclick="sortUp()" value="Сортировать" />
+              </div>
+            </td>
+            <td>
+              Website <i class="fas fa-sort-down"></i>
+              <div class="sort">
+                <input id="website" type="button" onclick="sortUp()" value="Сортировать" />
+              </div>
+            </td>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+    </main>
+  </body>
+</html>
